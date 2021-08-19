@@ -21,7 +21,7 @@ export class ActionSheetPage implements OnInit {
   async presentActionSheet() {
     const actionSheet = await this.actionSheetCtrl.create({
       header: 'Albums',
-      backdropDismiss: false,
+      backdropDismiss: false, //evita que se cierre si presiono fuera del action sheet
       cssClass: 'my-custom-class',
       buttons: [{
         text: 'Delete',
