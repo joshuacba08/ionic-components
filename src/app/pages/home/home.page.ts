@@ -38,6 +38,36 @@ export class HomePage implements OnInit {
       icon: 'card-outline',
       name: 'Cards',
       redirectTo: '/card'
+    },
+    {
+      icon: 'checkmark-circle-outline',
+      name: 'Checks',
+      redirectTo: '/check'
+    },
+    {
+      icon: 'calendar-outline',
+      name: 'DateTime',
+      redirectTo: '/date-time'
+    },
+    {
+      icon: 'car-outline',
+      name: 'Fab',
+      redirectTo: '/fab'
+    },
+    {
+      icon: 'grid-outline',
+      name: 'Grid',
+      redirectTo: '/grid'
+    },
+    {
+      icon: 'infinite-outline',
+      name: 'Infinite-scroll',
+      redirectTo: '/infinite'
+    },
+    {
+      icon: 'hammer-outline',
+      name: 'Input',
+      redirectTo: '/input'
     }
   ];
   constructor() { }
