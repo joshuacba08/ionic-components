@@ -11,6 +11,7 @@ export class AlertPage implements OnInit {
   constructor( private alertCtrl: AlertController ) { }
 
   ngOnInit() {
+    console.log('se monta componentesgit');
   }
 
 
@@ -42,7 +43,7 @@ export class AlertPage implements OnInit {
         {
           text:'Ok',
           handler: () => {
-            console.log('Click en ok!')
+            console.log('Click en ok!');
           }
         },
         {
@@ -131,7 +132,7 @@ export class AlertPage implements OnInit {
           }
         }, {
           text: 'Ok',
-          handler: ( data:any ) => {
+          handler: ( data: any ) => {
             console.log(data);
           }
         }
